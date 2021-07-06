@@ -2,6 +2,9 @@
       margin: 0;
       
   }
+  body{
+    font-family: 'Open Sans', sans-serif;
+  }
  #header{
      background-image: url(img/healthy.jpg);
      background-size:cover;
@@ -24,6 +27,7 @@ list-style: none;
      
       padding: 5px;
   }
+  
 .menu-content{
      
       width: 300px;
