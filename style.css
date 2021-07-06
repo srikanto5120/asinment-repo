@@ -7,17 +7,16 @@
      background-size:cover;
      background-position:center;
      height: 100vh;
-     
- }
- 
-  .menu ul{
+ }  
+
+.menu ul{
 list-style: none;
   }
-  .menu li{
+ .menu li{
       display: inline-block;
       margin: 10px 0px;
   } 
-  .menu a{
+.menu a{
       text-decoration: none;
       
       font-size: 18px;
@@ -25,74 +24,70 @@ list-style: none;
      
       padding: 5px;
   }
-  .menu-content{
+.menu-content{
      
       width: 300px;
       margin: 200px 150px;
   }
-  .button{
+.button{
       background:linear-gradient(pink,orange, red);
       padding: 5px 15px;
       margin-top: 15px;
       border-radius: 5px;
   }
-  span{
+span{
       color: orangered;
   }
-  .display-flex{
+.display-flex{
       display: flex;
-      
-   
-  }
+}
 
-  .half-width{
+.half-width{
       width: 50%;
        margin-bottom: 100px;
       padding-left: 2%;
        
-  }
+}
  
-  .half-width img{
+.half-width img{
        width: 60%;
-  }     
+}     
       
   
-  .person{
+.person{
       margin-left: 150px;
       margin-top: 25px;
-  }
+ }
   .person-banner{
     background-image: url(img/shapes/7.png);
     background-repeat: no-repeat;
    background-size: 114%;
-     
-
 }
-  .female-text{
+.female-text{
      text-align: justify;
      margin-top: 100px;
      margin-right: 30px;
-  }
+}
   
-  .recipes-headding{
+.recipes-headding{
       text-align: center;
       margin-bottom: 40px;
       margin-top: 40px;
       
-  }
-  .our-recipes{
+}
+.our-recipes{
       margin: 10px;
       padding: 10px;
       border: 1px solid #fff;
       border-radius: 20px;
       box-shadow: 5px 5px 10px gray;
       text-align:justify;
-  }
-  .our-recipes img{
+}
+.our-recipes img{
        width: 100%;
        
   }
- .special{
+.special{
      margin: 30px;
  }
  .special-recipe-flex{
@@ -109,28 +104,28 @@ list-style: none;
  }
   
 
-  .follower{
+.follower{
       margin-top: 100px;
+      margin-left: 30vw;
       width: 700px;
       height: 100px;
       border: 0px solid rgb(104, 70, 70);
       border-radius: 10px;
       box-shadow: 5px 5px 10px lightgray,
                     -5px -5px 10px lightgray ;
-      position: absolute;
-      left: 25%;
-       display: flex;
- 
+      display: flex;
+    }                
       
-  }
-  .social-media-flower{
+.social-media-flower{
       margin: 20px ;
       color: rgb(31, 21, 21);
-  }
-.fotter{
-    width: 700px;
-    height: 100px;
-
-    background: #000;
 }
- 
+
+
+ #fotter{
+     background: gray;
+     width: 100vw;
+     text-align: center;
+     margin-top: 50px;
+    padding: 10px;
+ }
